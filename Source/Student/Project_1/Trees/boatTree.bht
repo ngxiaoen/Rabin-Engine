@@ -1,0 +1,4 @@
+TREENAME(boatTree)
+TREENODE(C_ParallelSequencer, 0)
+TREENODE(L_Wander, 1)
+TREENODE(L_Sway, 1)

@@ -26,6 +26,7 @@ std::unique_ptr<UICoordinator> ui;
 std::unique_ptr<AStarPather> pather;
 std::unique_ptr<BehaviorTreeBuilder> treeBuilder;
 std::unique_ptr<AudioManager> audioManager;
+std::unique_ptr<Blackboard> myGlobalBlackBoard;
 
 float deltaTime = 0.16f;
 
@@ -47,7 +48,7 @@ bool Engine::initialize(HINSTANCE hInstance, int nCmdShow)
         renderer->initialize(hInstance, nCmdShow) &&
         allocate_project() &&
         project->initialize();
-
+    myGlobalBlackBoard = std::make_unique<Blackboard>();
     if (result == false)
     {
         pauseOnExit = true;
