@@ -1,12 +1,11 @@
 #pragma once
 #include "BehaviorNode.h"
 
-class D_CheckCenter : public BaseNode<D_CheckCenter>
+class L_Circle : public BaseNode<L_Circle>
 {
-public:
-
+	private:
+        float timer;
 protected:
-
     virtual void on_enter() override;
     virtual void on_update(float dt) override;
 };

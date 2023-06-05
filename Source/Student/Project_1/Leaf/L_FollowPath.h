@@ -9,7 +9,6 @@ protected:
     virtual void on_update(float dt) override;
 
 public:
-    float timer{0.f};
     int dir;
     Vec3 ogScale;
     std::vector<Vec3> nodes;

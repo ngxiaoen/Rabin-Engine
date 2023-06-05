@@ -1,7 +1,7 @@
 #pragma once
 #include "BehaviorNode.h"
 
-class D_CheckCenter : public BaseNode<D_CheckCenter>
+class D_CheckShoot : public BaseNode<D_CheckShoot>
 {
 public:
 

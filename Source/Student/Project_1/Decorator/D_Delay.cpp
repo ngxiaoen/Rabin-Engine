@@ -6,7 +6,7 @@ D_Delay::D_Delay() : delay(0.0f)
 
 void D_Delay::on_enter()
 {
-    delay = RNG::range(1.0f, 2.0f);
+    delay = RNG::range(1.0f, 5.0f);
 
     BehaviorNode::on_enter();
 }

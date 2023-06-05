@@ -12,6 +12,12 @@ void L_Sway::on_enter()
 
 void L_Sway::on_update(float dt)
 {
+	if (myGlobalBlackBoard->get_value<bool>("atCenter"))
+	{
+		on_failure();
+		return;
+	}
+
 	timer += dt;
 	auto lerpFunc = [](float start, float end, float percentage)
 	{
@@ -31,6 +37,7 @@ void L_Sway::on_update(float dt)
 		timer = 0.f;
 		on_success();
 	}
+
 
     display_leaf_text();
 }

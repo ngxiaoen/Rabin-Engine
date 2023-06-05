@@ -5,19 +5,19 @@
 void L_Respawn::on_enter()
 {
     // set animation, speed, etc
-
+    printf("Entered\n");
 	BehaviorNode::on_leaf_enter();
 }
 
 void L_Respawn::on_update(float dt)
 {
-    auto boat = agents->create_behavior_agent("boatAgent", BehaviorTreeTypes::boatTree);
-    boat->set_scaling(Vec3{ 10.f, 0.4f, 50.f });
-    boat->set_position(Vec3{ 0.f,0.f,0.f });
+    agents->get_all_agents_by_type("boatAgent");
+    
 
     auto human1 = agents->create_behavior_agent("humanAgent1", BehaviorTreeTypes::humanTree);
     auto human2 = agents->create_behavior_agent("humanAgent2", BehaviorTreeTypes::humanTree);
-
+    human1->set_scaling(Vec3{ 1.f, 1.f, 1.f });
+    human2->set_scaling(Vec3{ 1.f, 1.f, 1.f });
     std::vector<std::pair<std::wstring, Vec3>> humanPositions;
     humanPositions.emplace_back(std::pair<std::wstring, Vec3>(human1->get_debug_name(),
         Vec3{ 0.f, 0.f,0.f }));

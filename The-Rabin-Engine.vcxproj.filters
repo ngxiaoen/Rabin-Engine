@@ -325,12 +325,6 @@
     <ClInclude Include="Source\Student\Project_1\Leaf\L_AlwaysTrue.h">
       <Filter>Source\Student\Project_1\Leaf</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Student\Project_1\Leaf\L_CheckCenter.h">
-      <Filter>Source\Student\Project_1\Leaf</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Student\Project_1\Leaf\L_CollisionCheck.h">
-      <Filter>Source\Student\Project_1\Leaf</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Student\Project_1\Leaf\L_FollowBoat.h">
       <Filter>Source\Student\Project_1\Leaf</Filter>
     </ClInclude>
@@ -372,6 +366,33 @@
     </ClInclude>
     <ClInclude Include="Source\Student\Project_1\Decorator\D_RepeatForever.h">
       <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_CheckShoot.h">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ShootHuman.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_CheckGrab.h">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_GrabMove.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_Wave.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_FixedInvert.h">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_CollisionCheck.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_Circle.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Student\Project_1\Leaf\L_ChangeColour.h">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -600,12 +621,6 @@
     <ClCompile Include="Source\Student\Project_1\Leaf\L_AlwaysTrue.cpp">
       <Filter>Source\Student\Project_1\Leaf</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Student\Project_1\Leaf\L_CheckCenter.cpp">
-      <Filter>Source\Student\Project_1\Leaf</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Student\Project_1\Leaf\L_CollisionCheck.cpp">
-      <Filter>Source\Student\Project_1\Leaf</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Student\Project_1\Leaf\L_FollowBoat.cpp">
       <Filter>Source\Student\Project_1\Leaf</Filter>
     </ClCompile>
@@ -647,6 +662,33 @@
     </ClCompile>
     <ClCompile Include="Source\Student\Project_1\Decorator\D_RepeatForever.cpp">
       <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_CheckShoot.cpp">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ShootHuman.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_CheckGrab.cpp">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_GrabMove.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_Wave.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_FixedInvert.cpp">
+      <Filter>Source\Student\Project_1\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_CollisionCheck.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_Circle.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Student\Project_1\Leaf\L_ChangeColour.cpp">
+      <Filter>Source\Student\Project_1\Leaf</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

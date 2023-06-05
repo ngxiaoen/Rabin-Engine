@@ -17,7 +17,11 @@
 #include "Decorator/D_RepeatFourTimes.h"
 
 // Student Decorator Nodes
-#include "Decorator/D_RepeatForever.h"
+#include "Decorator/D_CheckCenter.h"
+#include "Decorator/D_CheckHuman.h"
+#include "Decorator/D_CheckShoot.h"
+#include "Decorator/D_CheckGrab.h"
+
 
 // Example Leaf Nodes
 #include "Leaf/L_CheckMouseClick.h"
@@ -34,3 +38,13 @@
 #include "Leaf/L_SizeDown.h"
 #include "Leaf/L_Sway.h"
 #include "Leaf/L_FollowBoat.h"
+#include "Leaf/L_AlwaysTrue.h"
+#include "Leaf/L_Sink.h"
+#include "Leaf/L_Respawn.h"
+#include "Leaf/L_ShootHuman.h"
+#include "Leaf/L_GrabBoat.h"
+#include "Leaf/L_GrabMove.h"
+#include "Leaf/L_CollisionCheck.h"
+#include "Leaf/L_Circle.h"
+#include "Leaf/L_ChangeColour.h"
+#include "Leaf/L_SpinVertically.h"

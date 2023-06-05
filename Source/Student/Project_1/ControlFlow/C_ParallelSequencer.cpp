@@ -16,6 +16,7 @@ void C_ParallelSequencer::on_update(float dt)
         if (child->failed() == true)
         {
             on_failure();
+            return;
         }
         else if (child->is_running() == true && child->succeeded() == false)
         {

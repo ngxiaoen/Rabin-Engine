@@ -17,10 +17,14 @@ void L_Sink::on_update(float dt)
 		return start + (end - start) * percentage;
 	};
 
-	agent->move_toward_point(lerpFunc(agent->get_position(),
-		agent->get_position() - Vec3{ 0.f,20.f,0.f }, timer/2.f), dt);
+	//auto a = agent->move_toward_point(lerpFunc(agent->get_position(),
+	//	agent->get_position() - Vec3{ 0.f,20.f,0.f }, timer/5.f), dt);
 
-	if(timer >= 2.f)
+	const auto pos = agent->get_position();
+	auto a = agent->move_toward_point(
+		 { pos.x,-20.f,pos.z }, dt);
+
+	if(a)
 	{
 		timer = 0.f;
 		on_success();

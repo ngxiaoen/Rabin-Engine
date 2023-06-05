@@ -16,6 +16,7 @@ void C_Selector::on_update(float dt)
     // if all children fail, node fails
     BehaviorNode *currentNode = children[currentIndex];
     currentNode->tick(dt);
+    //std::cout << currentNode->get_name() << std::endl;
 
     if (currentNode->succeeded() == true)
     {

@@ -4,7 +4,6 @@
 class D_CheckHuman : public BaseNode<D_CheckHuman>
 {
 public:
-    D_CheckHuman();
 
 protected:
 
